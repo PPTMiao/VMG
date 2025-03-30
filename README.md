@@ -9,4 +9,4 @@ We provide a complete Python implementation and experimental results of our Algo
 Below is the Duality gap v.s. Number of iterations (Averaged over 3 random seeds).
 ![Duality gap v.s. Number of iterations (Averaged over 3 random seeds)](vmg_avg_duality_gap.png)
 
-Our empirical results demonstrate that the duality gap decreases significantly over iterations, confirming that the VMG finds a good Nash Equilibrium approximation within a reasonable number of iterations. 
+Our empirical results demonstrate that the duality gap decreases significantly over iterations, confirming that VMG finds a good Nash Equilibrium approximation within a reasonable number of iterations. 
