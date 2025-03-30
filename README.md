@@ -1,6 +1,6 @@
 # VMG
 
-We provide a complete Python implementation and experimental results of our Algorithm 2 on randomly generated MDPs for two-player zero-sum Markov games under the linear mixture model setting, where the python code and the curve of duality gap at the $t$-th iteration, c.f. (3) in our paper) v.s. iteration numbers are provided. In the experiments:
+We provide a complete Python implementation and experimental results of our Algorithm 2 on randomly generated MDPs for two-player zero-sum Markov games under the linear mixture model setting, where the python code and the curve of duality gap (c.f. Eq.(3) in our paper) v.s. iteration numbers are provided. In the experiments:
 1. We adopt linear mixture model (c.f. Assumption 4): we randomly generate the feature function $\phi$ and $\theta^\star$ - the underlying parameter for the transition kernel of the MDP (i.e., $P_h(s'|s,a) = \phi_h(s,a,s')^\top \theta_h^\star$). The reward function is also randomly generated.
 
 2. We solve line 4 (find NE of the game) in our Algorithm 2 using OMWU - Algorithm 2 in [Cen et al., 2022]. We compute $f_t$ in line 5 by minimizing the objective with 100 Adam steps.
