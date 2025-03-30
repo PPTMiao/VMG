@@ -6,7 +6,7 @@ We provide a complete Python implementation and experimental results of our Algo
 2. We solve line 4 (find NE of the game) in our Algorithm 2 using OMWU - Algorithm 2 in [Cen et al., 2022](https://arxiv.org/pdf/2210.01050). We compute $f_t$ in line 5 by minimizing the objective with 100 Adam steps.
 
 
-Duality gap v.s. Number of iterations (Averaged over 3 random seeds) on randomly generated Markov games.
+Below is the Duality gap v.s. Number of iterations (Averaged over 3 random seeds).
 ![Duality gap v.s. Number of iterations (Averaged over 3 random seeds)](vmg_avg_duality_gap.png)
 
-Our empirical results demonstrate that the duality gap decreases significantly over iterations, confirming that the VMG a good Nash Equilibrium approximation within a reasonable number of iterations. 
+Our empirical results demonstrate that the duality gap decreases significantly over iterations, confirming that the VMG finds a good Nash Equilibrium approximation within a reasonable number of iterations. 
