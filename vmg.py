@@ -149,7 +149,7 @@ def generate_linear_mixture_mdp(H, S, A1, A2, d, seed=None):
             theta_star[h] = project_simplex(theta_star[h], z=1.0) # Try again
 
 
-    # 4. Generate random rewards in [0, 1] for player 1
+    # 4. Generate random rewards in [0, 3] for player 1
     r1 = 3*torch.rand(H, S, A1, A2, device=device)
     r = r1
 
